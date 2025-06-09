@@ -1,7 +1,4 @@
-import odinImage from "./odin.png";
 
-const image = document.createElement("img");
-image.src = odinImage;
+import "./styles.css";
 
-
-document.body.appendChild(image);
+const nav = document.getElementsByTagName("nav");
